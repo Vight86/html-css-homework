@@ -1,0 +1,14 @@
+{
+  "less.validate": false,
+  "scss.validate": false,
+  "css.validate": false,
+  //code formatting
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 120,
+  "html.format.extraLiners": "head, /head, body, /body, header, /header, main, /main, section, /section, footer, /footer, aside, /aside, div",
+}
