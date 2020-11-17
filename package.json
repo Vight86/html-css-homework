@@ -22,8 +22,11 @@
     "htmlhint": "^0.14.2",
     "imagemin-jpeg-recompress": "^7.0.0",
     "node-sass": "^5.0.0",
-    "prettier-stylelint": "^0.4.2",
     "stylelint": "^13.7.2",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   }
 }
