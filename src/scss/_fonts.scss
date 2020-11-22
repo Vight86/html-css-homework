@@ -1,0 +1,36 @@
+@font-face {
+  font-weight: 700;
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: url('./fonts/OpenSans-Bold.eot');
+  src:
+    local('Open Sans Bold'),
+    local('OpenSans-Bold'),
+    url('./fonts/OpenSans-Bold.woff') format('woff'),
+    url('./fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: url('./fonts/OpenSans-SemiBold.eot');
+  src:
+    local('Open Sans SemiBold'),
+    local('OpenSans-SemiBold'),
+    url('./fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('./fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  src: url('ProximaNova-Semibold.eot');
+  src:
+    local('Proxima Nova Semibold'),
+    local('ProximaNova-Semibold'),
+    url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Semibold.woff') format('woff'),
+    url('ProximaNova-Semibold.ttf') format('truetype');
+}

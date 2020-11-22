@@ -1,0 +1,10 @@
+.ui-kit {
+  padding: 20px;
+  background-color: $body-bgr-color;
+
+  &__header {
+    width: 100%;
+    max-width: $container-width;
+    margin: 0 auto;
+  }
+}

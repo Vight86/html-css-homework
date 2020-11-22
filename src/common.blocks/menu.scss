@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+
+  &__button {
+    position: relative;
+    width: 18px;
+    height: 18px;
+  }
+
+  &__item {
+    position: relative;
+    width: 75px;
+    height: 75px;
+
+    &_centered {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &_right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 2.4em;
+    }
+
+    &_left-bordered {
+      border-left-color: darken($color: $color-primary, $amount: 10);
+      border-left-width: 1px;
+      border-left-style: solid;
+    }
+
+    &_stretched {
+      flex-grow: 1;
+    }
+  }
+}

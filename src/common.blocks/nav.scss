@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    margin: 0 1.4em;
+
+    &_primary {
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      color: $color-secondary;
+      font-size: 1.8rem;
+      font-family: $primary-font;
+      text-decoration: none;
+      border-bottom-color: transparent;
+      border-bottom-width: 5px;
+      border-bottom-style: solid;
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        color: $color-tertiary;
+        border-bottom-color: $color-primary;
+      }
+    }
+
+    &_active {
+      color: $color-tertiary;
+      border-bottom-color: $color-primary;
+    }
+  }
+}
