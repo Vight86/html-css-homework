@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="9.906" viewBox="0 0 10.75 9.906">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.65;
+      }
+    </style>
+  </defs>
+  <path id="expand-icon" class="cls-1" d="M1213.95,601.632v-9.9h10.75v9.9h-10.75Zm9.85-7.348h-8.95v6.448h8.95v-6.448Z" transform="translate(-1213.94 -591.719)"/>
+</svg>
