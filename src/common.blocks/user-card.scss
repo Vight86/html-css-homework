@@ -1,0 +1,22 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__user {
+    box-sizing: border-box;
+    max-width: 425px;
+    margin-right: 3.7em;
+    padding-right: 3em;
+  }
+
+  &__stats {
+    flex-grow: 1;
+    min-width: 26rem;
+    margin-right: 6.5em;
+  }
+
+  &__buttons {
+    width: min-content;
+  }
+}

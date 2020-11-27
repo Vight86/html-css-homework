@@ -1,0 +1,57 @@
+.user {
+  &_primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    border-right: 1px solid darken($color: $white, $amount: 10%);
+  }
+
+  &__avatar {
+    width: 10em;
+    max-width: 100px;
+    height: 10em;
+    max-height: 100px;
+    margin-right: 2.5em;
+  }
+
+  &__name {
+    margin: 0 0 0.45em;
+
+    &_primary {
+      color: $color-quaternary;
+      font-weight: 600;
+      font-size: 2.4rem;
+      line-height: 1;
+    }
+
+    &_approved {
+      position: relative;
+      display: inline-block;
+      padding-right: 0.95em;
+
+      &::after {
+        position: absolute;
+        top: 60%;
+        right: 0;
+        display: block;
+        width: 0.585em;
+        height: 0.585em;
+        background-image: url(img/user-card/approved-icon.svg);
+        background-size: 100%;
+        transform: translateY(-50%);
+        content: "";
+      }
+    }
+  }
+
+  &__status {
+    margin: 0;
+
+    &_primary {
+      color: $color-tertiary;
+      font-size: 1.4em;
+      line-height: 1.7;
+    }
+  }
+}
