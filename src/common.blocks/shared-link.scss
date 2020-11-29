@@ -1,0 +1,34 @@
+.shared-link {
+  display: flex;
+  border-left: 2px solid $color-primary;
+
+  &__thumb {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1.7rem;
+
+    &_primary {
+      border-radius: 0.2rem;
+    }
+  }
+
+  span {
+    display: block;
+  }
+
+  &__title {
+    margin-bottom: 0.3rem;
+
+    &_primary {
+      color: $color-primary;
+      line-height: 1;
+    }
+  }
+
+  &__text {
+    &_primary {
+      color: $color-eighth;
+      line-height: 1.3;
+    }
+  }
+}

@@ -2,9 +2,11 @@
 @import './scss/fonts';
 @import './scss/variables';
 @import './common.blocks/html.scss';
-@import './common.blocks/ui-kit.scss';
+@import './common.blocks/title.scss';
+@import './common.blocks/truncated.scss';
 @import './common.blocks/block.scss';
 @import './common.blocks/container.scss';
+@import './common.blocks/ui-kit.scss';
 @import './common.blocks/header.scss';
 @import './common.blocks/menu.scss';
 @import './common.blocks/button.scss';
@@ -13,3 +15,8 @@
 @import './common.blocks/user.scss';
 @import './common.blocks/stats.scss';
 @import './common.blocks/buttons.scss';
+@import './common.blocks/following.scss';
+@import './common.blocks/item.scss';
+@import './common.blocks/footer.scss';
+@import './common.blocks/feed.scss';
+@import './common.blocks/shared-link.scss';

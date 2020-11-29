@@ -88,9 +88,9 @@
 
   </header>
 
-  <main class="main ui-kit__main container block">
+  <main class="main ui-kit__main container">
 
-    <section class="user-card ui-kit__user-card">
+    <section class="user-card ui-kit__user-card block">
 
       <div class="user user-card__user user_primary user_left-bordered">
         <img src="./img/user-card/user-avatar.png" alt="user avatar" class="user__avatar">
@@ -127,10 +127,287 @@
 
       <div class="buttons user-card__buttons">
         <button class="button buttons__button button_solid button_size_normal">Send message</button>
-        <button class="button button_transparent button_size_normal">Add friend</button>
+        <button class="button button_transparent button_primary button_size_normal">Add friend</button>
       </div>
 
     </section>
+
+    <div class="container container_flex">
+
+      <section class="feed container__feed block">
+
+        <header class="header feed__header header_flex">
+          <h2 class="title feed__title title_primary">Activity Feed</h2>
+          <button class="button feed__button">
+            <svg viewBox="0 0 16 16"
+              class="button button__icon button__icon_centered button__icon_secondary button__icon_size_normal">
+              <use xlink:href="./icons/sprite.svg#options-icon" />
+            </svg>
+          </button>
+
+        </header>
+
+        <main class="main feed__main">
+
+          <div class="item feed__item">
+
+            <div class="item__graphic item__graphic_primary">
+
+              <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
+                <use xlink:href="./icons/sprite.svg#picture-icon" />
+              </svg>
+
+              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                class="item__v-line item__v-line_primary">
+                <line x1="10" y1="0" x2="10" y2="2" />
+              </svg>
+
+            </div>
+
+            <div class="item__feed-info">
+
+              <div class="item__text">
+                <p>
+                  <a href="#" class="link">Kevin Ertan</a>
+                </p>
+                <p>
+                  Added 4 photos to album <a href="#" class="link">Summer</a>
+                </p>
+              </div>
+
+              <div class="item__thumb-list">
+                <img src="./img/feed/feed-thumb.png" alt="image thumb" class="item__thumb item__thumb_primary">
+                <img src="./img/feed/feed-thumb-1.png" alt="image thumb" class="item__thumb item__thumb_primary">
+                <img src="./img/feed/feed-thumb-2.png" alt="image thumb" class="item__thumb item__thumb_primary">
+                <img src="./img/feed/feed-thumb-3.png" alt="image thumb" class="item__thumb item__thumb_primary">
+              </div>
+            </div>
+          </div>
+
+          <div class="item feed__item">
+
+            <div class="item__graphic item__graphic_primary">
+
+              <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
+                <use xlink:href="./icons/sprite.svg#thumbs-icon" />
+              </svg>
+
+              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                class="item__v-line item__v-line_primary">
+                <line x1="10" y1="0" x2="10" y2="2" />
+              </svg>
+
+            </div>
+
+            <div class="item__feed-info">
+
+              <div class="item__text">
+                <p>
+                  <a href="#">John Doe</a>
+                  liked 2 photos of
+                  <a href="#">Alex Wayne</a>
+                </p>
+              </div>
+
+              <div class="item__thumb-list">
+                <img src="./img/feed/feed-thumb-4.png" alt="image thumb" class="item__thumb item__thumb_primary">
+                <img src="./img/feed/feed-thumb-5.png" alt="image thumb" class="item__thumb item__thumb_primary">
+              </div>
+            </div>
+          </div>
+
+          <div class="item feed__item">
+
+            <div class="item__graphic item__graphic_primary">
+
+              <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
+                <use xlink:href="./icons/sprite.svg#feed-user-icon" />
+              </svg>
+
+              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                class="item__v-line item__v-line_primary">
+                <line x1="10" y1="0" x2="10" y2="2" />
+              </svg>
+
+            </div>
+
+            <div class="item__feed-info">
+
+              <div class="item__text">
+                <p>
+                  <a href="#">John Doe</a>
+                  added <a href="#">Alex Wayne</a> to friends
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="item feed__item">
+
+            <div class="item__graphic item__graphic_primary">
+
+              <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
+                <use xlink:href="./icons/sprite.svg#calendar-icon" />
+              </svg>
+
+              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                class="item__v-line item__v-line_primary">
+                <line x1="10" y1="0" x2="10" y2="2" />
+              </svg>
+
+            </div>
+
+            <div class="item__feed-info">
+
+              <div class="item__text">
+                <p>
+                  <a href="#">Alex Gilev</a>
+                  created the <a href="#">Bowling</a> event
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="item feed__item">
+
+            <div class="item__graphic item__graphic_primary">
+
+              <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
+                <use xlink:href="./icons/sprite.svg#megaphone-icon" />
+              </svg>
+
+            </div>
+
+            <div class="item__feed-info">
+
+              <div class="item__text">
+                <p>
+                  <a href="#">David Vane</a>
+                  shared a link:
+                  <a href="#" class="shared-link item__shared-link">
+                    <img src="./img/feed/feed-thumb-5.png" alt="image thumb"
+                      class="shared-link__thumb shared-link__thumb_primary">
+                    <span class="shared-link__info">
+                      <span class="shared-link__title shared-link__title_primary">Lorem ipsum dolor</span>
+                      <span class="shared-link__text shared-link__text_primary">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing ips...</span>
+                    </span>
+                  </a>
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+        </main>
+
+        <footer class="footer feed__footer">
+          <button class="button button_text button_with-arrow">Show earlier activity</button>
+
+        </footer>
+
+      </section>
+
+      <section class="following container__following block">
+
+        <header class="header following__header">
+          <h2 class="title following__title title_primary">People to Follow</h2>
+
+        </header>
+
+        <main class="following__main">
+
+          <div class="item following__item">
+
+            <div class="item__avatar item__avatar_primary item__avatar_online">
+              <img src="./img/following/user-avatar.png" alt="user avatar">
+            </div>
+
+            <div class="item__user-data item__user-data_primary">
+              <span class="item__user-name item__user-name_primary item__user-name_mobile truncated">Alex Wayne</span>
+              <span class="item__user-status item__user-status_primary truncated">Artist</span>
+            </div>
+            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+          </div>
+
+          <div class="item following__item">
+
+            <div class="item__avatar item__avatar_primary item__avatar_online">
+              <img src="./img/following/user-avatar.png" alt="user avatar">
+            </div>
+
+            <div class="item__user-data item__user-data_primary">
+              <span class="item__user-name item__user-name_primary truncated">David Vane</span>
+              <span class="item__user-status item__user-status_primary truncated">Out of town</span>
+            </div>
+            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+          </div>
+
+          <div class="item following__item">
+
+            <div class="item__avatar item__avatar_primary item__avatar_online">
+              <img src="./img/following/user-avatar.png" alt="user avatar">
+            </div>
+
+            <div class="item__user-data item__user-data_primary">
+              <span class="item__user-name item__user-name_primary truncated">Kevin Ertan</span>
+              <span class="item__user-status item__user-status_primary truncated">Don’t sleep</span>
+            </div>
+            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+          </div>
+
+          <div class="item following__item">
+
+            <div class="item__avatar item__avatar_primary item__avatar_online">
+              <img src="./img/following/user-avatar.png" alt="user avatar">
+            </div>
+
+            <div class="item__user-data item__user-data_primary">
+              <span class="item__user-name item__user-name_primary item__user-name_mobile truncated">Jane Doe</span>
+              <span class="item__user-status item__user-status_primary truncated">Artist</span>
+            </div>
+            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+          </div>
+
+          <div class="item following__item">
+
+            <div class="item__avatar item__avatar_primary item__avatar_online">
+              <img src="./img/following/user-avatar.png" alt="user avatar">
+            </div>
+
+            <div class="item__user-data item__user-data_primary">
+              <span class="item__user-name item__user-name_primary  truncated">Alexander Wilkinson</span>
+              <span class="item__user-status item__user-status_primary truncated">Stay Hungry</span>
+            </div>
+            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+          </div>
+
+          <div class="item following__item">
+
+            <div class="item__avatar item__avatar_primary item__avatar_online">
+              <img src="./img/following/user-avatar.png" alt="user avatar">
+            </div>
+
+            <div class="item__user-data item__user-data_primary">
+              <span class="item__user-name item__user-name_primary item__user-name_mobile truncated">Alex Wayne</span>
+              <span class="item__user-status item__user-status_primary truncated">Artist</span>
+            </div>
+            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+          </div>
+
+        </main>
+
+        <footer class="footer following__footer">
+          <button class="button button_text button_with-arrow">Show 10 more</button>
+
+        </footer>
+
+      </section>
+
+    </div>
 
   </main>
 
