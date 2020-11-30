@@ -5,6 +5,10 @@
     justify-content: space-between;
   }
 
+  &_with-space {
+    padding: 3em 2.5em 4.5em;
+  }
+
   &__top {
     position: relative;
     width: 100%;
@@ -15,19 +19,5 @@
       align-items: center;
       background-color: $color-primary;
     }
-  }
-
-  &__logo {
-    padding-right: 50px;
-    padding-left: 25px;
-  }
-
-  &__menu {
-    width: calc(100% - 175px);
-  }
-
-  &__nav {
-    width: 100%;
-    height: 75px;
   }
 }

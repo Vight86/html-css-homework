@@ -1,6 +1,7 @@
 .stats {
   display: flex;
   justify-content: space-between;
+  min-width: 26rem;
   font-size: 1rem;
 
   &__item {

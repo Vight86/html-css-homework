@@ -1,18 +1,23 @@
 .user {
-  &_primary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 425px;
+  font-size: 1rem;
+
+  &_left-bordered {
+    padding-right: 3em;
     border-right: 1px solid darken($color: $white, $amount: 10%);
   }
 
   &__avatar {
-    width: 10em;
-    max-width: 100px;
-    height: 10em;
-    max-height: 100px;
     margin-right: 2.5em;
+
+    &_primary {
+      width: 10em;
+      height: 10em;
+    }
   }
 
   &__name {
