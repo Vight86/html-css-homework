@@ -1,0 +1,112 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  color: $color-tertiary;
+  font-weight: normal;
+  font-size: 1.4em;
+
+  &__bubble {
+    position: relative;
+    box-sizing: border-box;
+    width: 90%;
+    margin-bottom: 0.5rem;
+
+    &_primary {
+      line-height: 1.3;
+      border-radius: 1.7rem;
+    }
+
+    &_mobile {
+      max-width: 25.5rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__tale {
+    position: absolute;
+    bottom: 0;
+    left: -0.5rem;
+    width: 1.5rem;
+    height: 1.2rem;
+    transform: scaleX(-1) rotate(-9deg);
+  }
+
+  &__time {
+    &_primary {
+      color: $color-ninth;
+      font-weight: normal;
+      font-size: 0.9rem;
+    }
+  }
+
+  &_in {
+    align-items: flex-start;
+
+    .message__bubble {
+      left: 0.5rem;
+
+      &_primary {
+        background-color: $color-tenth;
+      }
+
+      &_mobile {
+        padding: 0.57em 1.21em 0.57em 1.64em;
+      }
+    }
+
+    .message__tale {
+      &_primary {
+        fill: $color-tenth;
+      }
+    }
+  }
+
+  &_out {
+    align-items: flex-end;
+
+    .message__bubble {
+      left: -0.5rem;
+      transform: scaleX(-1);
+
+      &_primary {
+        background-color: $color-fifth;
+      }
+
+      &_mobile {
+        padding: 1.1em 1em;
+      }
+    }
+
+    .message__text {
+      transform: scaleX(-1);
+    }
+
+    .message__tale {
+      &_primary {
+        fill: $color-fifth;
+      }
+    }
+  }
+
+  &_attention {
+    &::before {
+      position: absolute;
+      top: -0.8rem;
+      left: 0.2rem;
+      z-index: 10;
+      width: 1.3rem;
+      height: 1.3rem;
+      color: $white;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.3rem;
+      text-align: center;
+      background-color: $color-alert;
+      border-radius: 50%;
+      content: '!';
+    }
+  }
+}
