@@ -5,13 +5,48 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: opacity 0.3s ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &_size {
+    &_xs {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+
+    &_xxs {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    &_md {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &_text-wide {
+      width: 11.56em;
+      font-size: 1.6rem;
+      line-height: 3.125em;
+    }
+
+    &_text-sm {
+      width: 5rem;
+      font-size: 1.2rem;
+      line-height: 2.5rem;
+    }
+  }
 
   &_faded {
-    opacity: 0.5;
-    transition: opacity 0.3s ease-in;
+    &-average {
+      opacity: 0.5;
+    }
 
-    &:hover {
-      opacity: 1;
+    &-strongly {
+      opacity: 0.65;
     }
   }
 
@@ -75,18 +110,6 @@
     border-radius: 4px;
   }
 
-  &_size_normal {
-    width: 11.56em;
-    font-size: 1.6rem;
-    line-height: 3.125em;
-  }
-
-  &_size_small {
-    width: 5rem;
-    font-size: 1.2rem;
-    line-height: 2.5rem;
-  }
-
   &__counter {
     position: absolute;
     top: -30%;
@@ -122,14 +145,21 @@
       fill: $color-seventh;
     }
 
-    &_size_normal {
-      width: 18px;
-      height: 18px;
-    }
+    &_size {
+      &_md {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
 
-    &_size_bigger {
-      width: 25px;
-      height: 25px;
+      &_xxs {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      &_lg {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
     }
   }
 

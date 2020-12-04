@@ -1,11 +1,14 @@
 .menu {
   display: flex;
+  justify-content: space-between;
   width: 100%;
+
+  &_size_small {
+    width: 6rem;
+  }
 
   &__button {
     position: relative;
-    width: 18px;
-    height: 18px;
   }
 
   &__item {

@@ -22,9 +22,9 @@
       <div class="menu header__menu">
 
         <div class="menu__item menu__item_centered menu__item_left-bordered">
-          <button class="button menu__button button_active">
+          <button class="button menu__button button_size_xs button_active">
             <svg viewBox="0 0 16 16"
-              class="button__icon button__icon_centered button__icon_primary button__icon_size_normal">
+              class="button__icon button__icon_centered button__icon_primary button__icon_size_md">
               <use xlink:href="./icons/sprite.svg#notification-icon" />
             </svg>
             <span class="button__counter button__counter_primary">1</span>
@@ -32,45 +32,45 @@
         </div>
 
         <div class="menu__item menu__item_centered menu__item_left-bordered">
-          <button class="button menu__button button_faded">
+          <button class="button menu__button button_size_xs button_faded-average">
             <svg viewBox="0 0 16 16"
-              class="button__icon button__icon_centered button__icon_primary button__icon_size_normal">
+              class="button__icon button__icon_centered button__icon_primary button__icon_size_md">
               <use xlink:href="./icons/sprite.svg#users-icon" />
             </svg>
           </button>
         </div>
 
         <div class="menu__item menu__item_centered menu__item_left-bordered">
-          <button class="button menu__button button_faded">
+          <button class="button menu__button button_size_xs button_faded-average">
             <svg viewBox="0 0 16 16"
-              class="button__icon button__icon_centered button__icon_primary button__icon_size_normal">
+              class="button__icon button__icon_centered button__icon_primary button__icon_size_md">
               <use xlink:href="./icons/sprite.svg#messages-icon" />
             </svg>
           </button>
         </div>
 
         <div class="menu__item menu__item_left-bordered menu__item_stretched menu__item_right">
-          <button class="button menu__button button_active button_stretched button_with-arrow">
+          <button class="button menu__button button_size_xs button_active button_stretched button_with-arrow">
             <span class="button__text button__text_primary">John Doe</span>
-            <svg viewBox="0 0 16 16" class="button__icon button__icon_primary button__icon_size_bigger">
+            <svg viewBox="0 0 16 16" class="button__icon button__icon_primary button__icon_size_lg">
               <use xlink:href="./icons/sprite.svg#main-user-icon" />
             </svg>
           </button>
         </div>
 
         <div class="menu__item menu__item_centered menu__item_left-bordered">
-          <button class="button menu__button button_faded">
+          <button class="button menu__button button_size_xs button_faded-average">
             <svg viewBox="0 0 16 16"
-              class="button__icon button__icon_centered button__icon_primary button__icon_size_normal">
+              class="button__icon button__icon_centered button__icon_primary button__icon_size_md">
               <use xlink:href="./icons/sprite.svg#search-icon" />
             </svg>
           </button>
         </div>
 
         <div class="menu__item menu__item_centered menu__item_left-bordered">
-          <button class="button menu__button button_faded">
+          <button class="button menu__button button_size_xs button_faded-average">
             <svg viewBox="0 0 16 16"
-              class="button__icon button__icon_centered button__icon_primary button__icon_size_normal">
+              class="button__icon button__icon_centered button__icon_primary button__icon_size_md">
               <use xlink:href="./icons/sprite.svg#logout-icon" />
             </svg>
           </button>
@@ -126,21 +126,21 @@
       </div>
 
       <div class="buttons user-card__buttons">
-        <button class="button buttons__button button_solid button_size_normal">Send message</button>
-        <button class="button button_transparent button_primary button_size_normal">Add friend</button>
+        <button class="button buttons__button button_solid button_size_text-wide">Send message</button>
+        <button class="button button_transparent button_primary button_size_text-wide">Add friend</button>
       </div>
 
     </section>
 
     <div class="container container_flex">
 
-      <section class="feed container__feed block">
+      <section class="feed block container__block">
 
         <header class="header block__header header_flex header_with-space">
           <h2 class="title block__title title_primary">Activity Feed</h2>
-          <button class="button feed__button">
+          <button class="button feed__button button_size_md">
             <svg viewBox="0 0 16 16"
-              class="button button__icon button__icon_centered button__icon_secondary button__icon_size_normal">
+              class="button button__icon button__icon_centered button__icon_secondary button__icon_size_md">
               <use xlink:href="./icons/sprite.svg#options-icon" />
             </svg>
           </button>
@@ -311,7 +311,7 @@
 
       </section>
 
-      <section class="following block container__following">
+      <section class="following block container__block">
 
         <header class="header block__header header_with-space">
           <h2 class="title block__title title_primary">People to Follow</h2>
@@ -322,7 +322,7 @@
 
           <div class="item following__item">
 
-            <div class="item__avatar item__avatar_primary item__avatar_online">
+            <div class="item__avatar item__avatar_circle item__avatar_online">
               <img src="./img/following/user-avatar.png" alt="user avatar">
             </div>
 
@@ -330,12 +330,12 @@
               <span class="item__user-name item__user-name_primary item__user-name_mobile truncated">Alex Wayne</span>
               <span class="item__user-status item__user-status_primary truncated">Artist</span>
             </div>
-            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+            <button class="button item__button button_transparent button_secondary button_size_text-sm">+ Add</button>
           </div>
 
           <div class="item following__item">
 
-            <div class="item__avatar item__avatar_primary item__avatar_online">
+            <div class="item__avatar item__avatar_circle item__avatar_online">
               <img src="./img/following/user-avatar.png" alt="user avatar">
             </div>
 
@@ -343,12 +343,12 @@
               <span class="item__user-name item__user-name_primary truncated">David Vane</span>
               <span class="item__user-status item__user-status_primary truncated">Out of town</span>
             </div>
-            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+            <button class="button item__button button_transparent button_secondary button_size_text-sm">+ Add</button>
           </div>
 
           <div class="item following__item">
 
-            <div class="item__avatar item__avatar_primary item__avatar_online">
+            <div class="item__avatar item__avatar_circle item__avatar_online">
               <img src="./img/following/user-avatar.png" alt="user avatar">
             </div>
 
@@ -356,12 +356,12 @@
               <span class="item__user-name item__user-name_primary truncated">Kevin Ertan</span>
               <span class="item__user-status item__user-status_primary truncated">Don’t sleep</span>
             </div>
-            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+            <button class="button item__button button_transparent button_secondary button_size_text-sm">+ Add</button>
           </div>
 
           <div class="item following__item">
 
-            <div class="item__avatar item__avatar_primary item__avatar_online">
+            <div class="item__avatar item__avatar_circle item__avatar_online">
               <img src="./img/following/user-avatar.png" alt="user avatar">
             </div>
 
@@ -369,12 +369,12 @@
               <span class="item__user-name item__user-name_primary item__user-name_mobile truncated">Jane Doe</span>
               <span class="item__user-status item__user-status_primary truncated">Artist</span>
             </div>
-            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+            <button class="button item__button button_transparent button_secondary button_size_text-sm">+ Add</button>
           </div>
 
           <div class="item following__item">
 
-            <div class="item__avatar item__avatar_primary item__avatar_online">
+            <div class="item__avatar item__avatar_circle item__avatar_online">
               <img src="./img/following/user-avatar.png" alt="user avatar">
             </div>
 
@@ -382,12 +382,12 @@
               <span class="item__user-name item__user-name_primary  truncated">Alexander Wilkinson</span>
               <span class="item__user-status item__user-status_primary truncated">Stay Hungry</span>
             </div>
-            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+            <button class="button item__button button_transparent button_secondary button_size_text-sm">+ Add</button>
           </div>
 
           <div class="item following__item">
 
-            <div class="item__avatar item__avatar_primary item__avatar_online">
+            <div class="item__avatar item__avatar_circle item__avatar_online">
               <img src="./img/following/user-avatar.png" alt="user avatar">
             </div>
 
@@ -395,7 +395,125 @@
               <span class="item__user-name item__user-name_primary item__user-name_mobile truncated">Alex Wayne</span>
               <span class="item__user-status item__user-status_primary truncated">Artist</span>
             </div>
-            <button class="button item__button button_transparent button_secondary button_size_small">+ Add</button>
+            <button class="button item__button button_transparent button_secondary button_size_text-sm">+ Add</button>
+          </div>
+
+        </main>
+
+        <footer class="footer block__footer">
+          <button class="button button_text button_with-arrow">Show 10 more</button>
+
+        </footer>
+
+      </section>
+
+      <section class="chat block container__block">
+
+        <header class="header block__header header_flex header_minimized header_primary">
+          <img src="./img/user-card/user-avatar.png" alt="chat user avatar"
+            class="chat__user-avatar chat__user-avatar_circle">
+          <h5 class="title block__title title_secondary title_with-circle truncated">Alex Wayne</h5>
+
+          <div class="menu chat__menu menu_size_small">
+            <button class="button menu__button button_size_xxs button_faded-strongly">
+              <svg viewBox="0 0 10 10"
+                class="button__icon button__icon_centered button__icon_primary button__icon_size_xxs">
+                <use xlink:href="./icons/sprite.svg#options-icon" />
+              </svg>
+            </button>
+            <button class="button menu__button button_size_xxs button_faded-strongly">
+              <svg viewBox="0 0 10 10"
+                class="button__icon button__icon_centered button__icon_primary button__icon_size_xxs">
+                <use xlink:href="./icons/sprite.svg#expand-icon" />
+              </svg>
+            </button>
+            <button class="button menu__button button_size_xxs button_faded-strongly">
+              <svg viewBox="0 0 10 10"
+                class="button__icon button__icon_centered button__icon_primary button__icon_size_xxs">
+                <use xlink:href="./icons/sprite.svg#close-rounded-icon" />
+              </svg>
+            </button>
+          </div>
+
+        </header>
+
+        <main class="block__main">
+
+          <div class="message chat__message message_in">
+
+            <div class="message__bubble message__bubble_primary">
+
+              <div class="message__text">
+                <p>Vestibulum ante ipsum
+                  primis in faucibus.</p>
+              </div>
+              <svg viewBox="0 0 21.23 11.19" preserveAspectRatio="none" class="message__tale message__tale_primary">
+                <use xlink:href="./icons/sprite.svg#message-tale-icon" />
+              </svg>
+            </div>
+            <span class="message__time message__time_primary">Sat, Aug 23, 1:08 PM</span>
+          </div>
+
+          <div class="message chat__message message_in">
+
+            <div class="message__bubble message__bubble_primary">
+
+              <div class="message__text">
+                <p>Cras ultricies ligula.</p>
+              </div>
+              <svg viewBox="0 0 21.23 11.19" preserveAspectRatio="none" class="message__tale message__tale_primary">
+                <use xlink:href="./icons/sprite.svg#message-tale-icon" />
+              </svg>
+            </div>
+            <span class="message__time message__time_primary">Sat, Aug 23, 1:08 PM</span>
+          </div>
+
+          <div class="message chat__message message_out">
+
+            <div class="message__bubble message__bubble_primary">
+
+              <div class="message__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+              </div>
+              <svg viewBox="0 0 21.23 11.19" preserveAspectRatio="none" class="message__tale message__tale_primary">
+                <use xlink:href="./icons/sprite.svg#message-tale-icon" />
+              </svg>
+            </div>
+            <span class="message__time message__time_primary">Sat, Aug 23, 1:08 PM</span>
+          </div>
+
+          <div class="separator chat__separator separator_with-line">
+            <span class="separator__text separator__text_primary">Sunday, August 24</span>
+          </div>
+
+          <div class="message chat__message message_in message_attention">
+
+            <div class="message__bubble message__bubble_primary">
+
+              <div class="message__text">
+                <p>Cras ultricies ligula..</p>
+              </div>
+              <svg viewBox="0 0 21.23 11.19" preserveAspectRatio="none" class="message__tale message__tale_primary">
+                <use xlink:href="./icons/sprite.svg#message-tale-icon" />
+              </svg>
+            </div>
+            <span class="message__time message__time_primary">5 Minutes ago</span>
+          </div>
+
+          <div class="message chat__message message_out">
+
+            <div class="message__bubble message__bubble_primary">
+
+              <div class="message__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+              </div>
+              <svg viewBox="0 0 21.23 11.19" preserveAspectRatio="none" class="message__tale message__tale_primary">
+                <use xlink:href="./icons/sprite.svg#message-tale-icon" />
+              </svg>
+            </div>
+            <span class="message__time message__time_primary">Sat, Aug 23, 1:08 PM</span>
           </div>
 
         </main>
