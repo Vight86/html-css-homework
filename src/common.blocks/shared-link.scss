@@ -3,13 +3,9 @@
   border-left: 2px solid $color-primary;
 
   &__thumb {
-    width: 5rem;
-    height: 5rem;
-    margin-right: 1.7rem;
-
-    &_primary {
-      border-radius: 0.2rem;
-    }
+    position: relative;
+    flex-shrink: 0;
+    margin: 0 1.7rem 0 0;
   }
 
   span {

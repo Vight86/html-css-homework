@@ -1,0 +1,30 @@
+.thumb {
+  display: inline-block;
+
+  &_size_xs {
+    width: 5rem;
+  }
+
+  &_primary {
+    overflow: hidden;
+    border-radius: 0.2rem;
+  }
+
+  &_square {
+    &::before {
+      position: relative;
+      display: block;
+      padding-top: 100%;
+      content: '';
+    }
+
+    & > img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: auto;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
