@@ -82,6 +82,7 @@
   }
 
   &__graphic {
+    position: relative;
     margin-right: 2.5rem;
 
     &_primary {
@@ -91,6 +92,18 @@
       align-self: stretch;
       justify-content: space-between;
     }
+
+    &_v-lined {
+      &::after {
+        position: relative;
+        width: 1px;
+        height: calc(100% - 30px);
+        min-height: 15px;
+        background-color: $black;
+        opacity: 0.12;
+        content: '';
+      }
+    }
   }
 
   &__graphic-icon {
@@ -99,17 +112,6 @@
     &_primary {
       fill: $black;
       fill-opacity: 0.35;
-    }
-  }
-
-  &__v-line {
-    width: 20px;
-    height: calc(100% - 30px);
-    min-height: 15px;
-
-    &_primary {
-      stroke: $black;
-      stroke-opacity: 0.12;
     }
   }
 

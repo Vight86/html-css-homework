@@ -151,15 +151,10 @@
 
           <div class="item feed__item">
 
-            <div class="item__graphic item__graphic_primary">
+            <div class="item__graphic item__graphic_primary item__graphic_v-lined item__graphic_v-lined">
 
               <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
                 <use xlink:href="./icons/sprite.svg#picture-icon" />
-              </svg>
-
-              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-                class="item__v-line item__v-line_primary">
-                <line x1="10" y1="0" x2="10" y2="2" />
               </svg>
 
             </div>
@@ -194,15 +189,10 @@
 
           <div class="item feed__item">
 
-            <div class="item__graphic item__graphic_primary">
+            <div class="item__graphic item__graphic_primary item__graphic_v-lined">
 
               <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
                 <use xlink:href="./icons/sprite.svg#thumbs-icon" />
-              </svg>
-
-              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-                class="item__v-line item__v-line_primary">
-                <line x1="10" y1="0" x2="10" y2="2" />
               </svg>
 
             </div>
@@ -230,15 +220,10 @@
 
           <div class="item feed__item">
 
-            <div class="item__graphic item__graphic_primary">
+            <div class="item__graphic item__graphic_primary item__graphic_v-lined">
 
               <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
                 <use xlink:href="./icons/sprite.svg#feed-user-icon" />
-              </svg>
-
-              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-                class="item__v-line item__v-line_primary">
-                <line x1="10" y1="0" x2="10" y2="2" />
               </svg>
 
             </div>
@@ -257,15 +242,10 @@
 
           <div class="item feed__item">
 
-            <div class="item__graphic item__graphic_primary">
+            <div class="item__graphic item__graphic_primary item__graphic_v-lined">
 
               <svg viewBox="0 0 20 19" class="item__graphic-icon item__graphic-icon_primary">
                 <use xlink:href="./icons/sprite.svg#calendar-icon" />
-              </svg>
-
-              <svg viewBox="0 0 19 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-                class="item__v-line item__v-line_primary">
-                <line x1="10" y1="0" x2="10" y2="2" />
               </svg>
 
             </div>
@@ -317,7 +297,7 @@
 
         </main>
 
-        <footer class="footer block__footer">
+        <footer class="footer block__footer footer_primary">
           <button class="button button_text button_with-arrow">Show earlier activity</button>
 
         </footer>
@@ -413,7 +393,7 @@
 
         </main>
 
-        <footer class="footer block__footer">
+        <footer class="footer block__footer footer_primary">
           <button class="button button_text button_with-arrow">Show 10 more</button>
 
         </footer>
@@ -531,9 +511,20 @@
 
         </main>
 
-        <footer class="footer block__footer">
-          <form action="/">
-
+        <footer class="footer block__footer footer_secondary footer_top-bordered">
+          <form action="/" class="form form_mobile">
+            <select name="smile">
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+            <input type="text" name="message-text"
+              class="input form__input form__input_stretched input_left-bordered input_primary">
+            <label class="input form__input input_file input_size_md">
+              <input type="file" name="messge-attach">
+              <svg viewBox="0 0 21 21" class="input__icon input__icon_primary input__icon_size_md">
+                <use xlink:href="./icons/sprite.svg#attach-icon" />
+              </svg>
+            </label>
           </form>
 
         </footer>
