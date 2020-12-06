@@ -69,6 +69,7 @@ function svgSpriteBuild(cb) {
           { inlineStyles: false },
           { removeAttrs: { attrs: '(fill|stroke|style)' } },
           { removeStyleElement: true },
+          { mergePaths: false }
         ],
       }),
     ]))
