@@ -62,18 +62,17 @@ function imgBuild(cb) {
 
 function svgSpriteBuild(cb) {
   src(`${source}/icons/**/*.svg`)
-    .pipe(imagemin([
-      imagemin.svgo({
-        plugins: [
-          { removeViewBox: false },
-          { inlineStyles: false },
-          { removeAttrs: { attrs: '(fill|stroke|style)' } },
-          { removeStyleElement: true },
-          { mergePaths: false }
-        ],
-      }),
-    ]))
     .pipe(svgSprite({
+      shape: {
+        transform: [
+            {svgo: {
+                plugins: [
+                    { removeAttrs: { attrs: '(fill|stroke|style)' } },
+                    {removeStyleElement: true}
+                ]
+            }}
+        ]
+    },
       mode: {
         symbol: {
           sprite: '../sprite.svg',
