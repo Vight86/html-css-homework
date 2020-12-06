@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+
+  &_mobile {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  &__input {
+    position: relative;
+    margin-left: 1rem;
+
+    &_stretched {
+      flex-grow: 1;
+    }
+  }
+
+  &__select {
+    position: relative;
+  }
+}

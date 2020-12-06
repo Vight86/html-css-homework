@@ -513,10 +513,17 @@
 
         <footer class="footer block__footer footer_secondary footer_top-bordered">
           <form action="/" class="form form_mobile">
-            <select name="smile">
-              <option value="1">1</option>
-              <option value="2">2</option>
-            </select>
+
+            <div class="select form__select input">
+              <svg viewBox="0 0 32 32" preserveAspectRatio="none"
+                class="input__icon input__icon_size_md input__icon_primary">
+                <use xlink:href="./icons/sprite.svg#smile-icon" />
+              </svg>
+              <select name="smile">
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
             <input type="text" name="message-text"
               class="input form__input form__input_stretched input_left-bordered input_primary">
             <label class="input form__input input_file input_size_md">

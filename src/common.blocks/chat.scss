@@ -1,0 +1,48 @@
+.chat {
+  width: 100%;
+  max-width: 35rem;
+  font-size: 1rem;
+
+  &__user-avatar {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 1rem;
+
+    &_circle {
+      border-radius: 50%;
+    }
+  }
+
+  &__menu {
+    margin-left: auto;
+  }
+
+  &__message {
+    position: relative;
+
+    &.message_in {
+      margin-top: 2.5rem;
+
+      & + .message_out {
+        margin-top: 3rem;
+      }
+    }
+
+    &.message_out {
+      margin-top: 2.5rem;
+
+      & + .message_in {
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  &__separator {
+    position: relative;
+    margin-top: 1.7rem;
+
+    & + .chat__message {
+      margin-top: 2rem;
+    }
+  }
+}

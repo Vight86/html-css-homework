@@ -8,4 +8,9 @@
     display: flex;
     justify-content: space-between;
   }
+
+  &__block {
+    position: relative;
+    max-height: 60rem;
+  }
 }

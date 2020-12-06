@@ -1,0 +1,48 @@
+.input {
+  outline: none;
+
+  &_size {
+    &_md {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  &_file {
+    cursor: pointer;
+
+    input[type="file"] {
+      display: none;
+    }
+  }
+
+  &_left-bordered {
+    border: none;
+    border-left: 0.1rem solid $color-thirteenth;
+  }
+
+  &_primary {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: $color-tertiary;
+    font-family: $primary-font;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &_size {
+      &_md {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+    &_primary {
+      fill: $color-twelfth;
+    }
+  }
+}
