@@ -1,4 +1,71 @@
 .emoji {
+  display: inline-block;
   margin-left: 0.3rem;
   vertical-align: middle;
+
+  &_angry {
+    width: 18px;
+    height: 19px;
+    background: url('./img/sprite-emoji.png') -5px -34px;
+  }
+
+  &_ok {
+    width: 18px;
+    height: 19px;
+    background: url('./img/sprite-emoji.png') -33px -34px;
+  }
+
+  &_victory {
+    width: 11px;
+    height: 16px;
+    background: url('./img/sprite-emoji.png') -91px -31px;
+  }
+
+  &_neutral {
+    width: 19px;
+    height: 19px;
+    background: url('./img/sprite-emoji.png') -5px -5px;
+  }
+
+  &_cry {
+    width: 16px;
+    height: 16px;
+    background: url('./img/sprite-emoji.png') -5px -63px;
+  }
+
+  &_heavy-cry {
+    width: 18px;
+    height: 19px;
+    background: url('./img/sprite-emoji.png') -63px -5px;
+  }
+
+  &_drop-smile {
+    width: 16px;
+    height: 16px;
+    background: url('./img/sprite-emoji.png') -31px -63px;
+  }
+
+  &_smile {
+    width: 19px;
+    height: 19px;
+    background: url('./img/sprite-emoji.png') -34px -5px;
+  }
+
+  &_sunglasses {
+    width: 16px;
+    height: 16px;
+    background: url('./img/sprite-emoji.png') -57px -63px;
+  }
+
+  &_surprise {
+    width: 16px;
+    height: 16px;
+    background: url('./img/sprite-emoji.png') -91px -5px;
+  }
+
+  &_wink {
+    width: 18px;
+    height: 19px;
+    background: url('./img/sprite-emoji.png') -63px -34px;
+  }
 }
