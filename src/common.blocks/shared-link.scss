@@ -1,6 +1,6 @@
 .shared-link {
   display: flex;
-  border-left: 2px solid $color-primary;
+  border-left: 0.2rem solid $color-primary;
 
   &__thumb {
     position: relative;
@@ -13,7 +13,7 @@
   }
 
   &__title {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
 
     &_primary {
       color: $color-primary;

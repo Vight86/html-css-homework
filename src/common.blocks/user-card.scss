@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5em;
+  padding: 4rem 5rem;
 
   &__user {
     margin-right: 3.7em;
@@ -15,5 +15,6 @@
 
   &__buttons {
     width: min-content;
+    margin-top: 0.8rem;
   }
 }
