@@ -67,7 +67,7 @@ function svgSpriteBuild(cb) {
         transform: [
             {svgo: {
                 plugins: [
-                    { removeAttrs: { attrs: '(fill|stroke|style)' } },
+                    { removeAttrs: { attrs: '(fill|stroke|style|class|id)' } },
                     {removeStyleElement: true}
                 ]
             }}
