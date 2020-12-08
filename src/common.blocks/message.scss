@@ -11,12 +11,22 @@
     margin-bottom: 0.5rem;
 
     &_primary {
-      line-height: 1.3;
       border-radius: 1.7rem;
     }
 
-    &_mobile {
+    &_sm {
       max-width: 25.5rem;
+      line-height: 1.3;
+    }
+
+    &_md {
+      max-width: 40rem;
+      line-height: 1.57;
+    }
+
+    &_lg {
+      max-width: 50rem;
+      line-height: 1.57;
     }
 
     p {
@@ -37,7 +47,36 @@
     &_primary {
       color: $color-ninth;
       font-weight: normal;
+    }
+
+    &_sm {
       font-size: 0.9rem;
+    }
+
+    &_md {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__thumb {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+  }
+
+  &__icon {
+    &_primary {
+      fill: currentColor;
+    }
+
+    &_md {
+      width: 1.3rem;
+      height: 1.3rem;
     }
   }
 
@@ -51,8 +90,13 @@
         background-color: $color-tenth;
       }
 
-      &_mobile {
+      &_sm {
         padding: 0.57em 1.21em 0.57em 1.64em;
+      }
+
+      &_md,
+      &_lg {
+        padding: 2rem;
       }
     }
 
@@ -60,6 +104,10 @@
       &_primary {
         fill: $color-tenth;
       }
+    }
+
+    .dialogue__user-avatar {
+      margin: 0 1.6rem 0 0;
     }
   }
 
@@ -74,8 +122,13 @@
         background-color: $color-fifth;
       }
 
-      &_mobile {
+      &_sm {
         padding: 1.1em 1em;
+      }
+
+      &_md,
+      &_lg {
+        padding: 2rem 3rem;
       }
     }
 
@@ -87,6 +140,11 @@
       &_primary {
         fill: $color-fifth;
       }
+    }
+
+    .dialogue__user-avatar {
+      order: 1;
+      margin: 0 0 0 1.6rem;
     }
   }
 
@@ -107,5 +165,9 @@
       border-radius: 50%;
       content: '!';
     }
+  }
+
+  &_typing {
+    color: $color-twelfth;
   }
 }

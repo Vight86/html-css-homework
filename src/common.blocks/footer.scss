@@ -12,6 +12,10 @@
     background-color: $white;
   }
 
+  &_tertiary {
+    background-color: $color-tenth;
+  }
+
   &_top-bordered {
     border-top: 1px solid $color-eleventh;
   }

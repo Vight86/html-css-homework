@@ -1,9 +1,10 @@
 .form {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
 
   &_mobile {
-    width: 100%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
@@ -14,10 +15,30 @@
 
     &_stretched {
       flex-grow: 1;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    &_first {
+      margin-bottom: 1rem;
+      margin-left: 0;
+    }
+
+    &_last {
+      margin-left: auto;
     }
   }
 
   &__select {
     position: relative;
+  }
+
+  &__section {
+    width: calc(100% - 13rem);
+
+    &_primary {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 }

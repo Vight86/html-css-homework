@@ -1,0 +1,121 @@
+.dialogue {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2.1rem 2.5rem;
+  border-bottom: 0.1rem solid $color-fourteenth;
+
+  &_has-unread-message {
+    background-color: $color-fifth;
+  }
+
+  &__user-avatar {
+    position: relative;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0 1.4rem 0 0;
+
+    & > img {
+      width: 100%;
+    }
+
+    &_circle {
+      & > img {
+        border-radius: 50%;
+      }
+    }
+
+    &_online {
+      &::after {
+        position: absolute;
+        top: -0.3rem;
+        right: -0.3rem;
+        display: block;
+        width: 0.8rem;
+        height: 0.8rem;
+        background-color: $color-success;
+        border-radius: 50%;
+        content: '';
+      }
+    }
+  }
+
+  &__user-name {
+    max-width: 15.5rem;
+    margin: 0;
+
+    &_primary {
+      color: $color-quaternary;
+      font-weight: 600;
+      font-size: 1.6rem;
+      letter-spacing: 0.005em;
+    }
+  }
+
+  &__user-status {
+    max-width: 18.5rem;
+    margin: 0;
+
+    &_primary {
+      color: $color-tertiary;
+      font-weight: normal;
+      font-size: 1.4rem;
+      line-height: 1.7;
+      letter-spacing: 0.005em;
+    }
+  }
+
+  &__time {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+
+    &_primary {
+      color: $color-ninth;
+      font-weight: normal;
+      font-size: 1.4rem;
+      letter-spacing: 0.005em;
+    }
+  }
+
+  &__new-message-counter {
+    position: absolute;
+    top: 5.2rem;
+    right: 2.5rem;
+
+    &_primary {
+      display: block;
+      width: 2.4rem;
+      height: 2.4rem;
+      color: $white;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 2.4rem;
+      text-align: center;
+      background-color: $color-sixth;
+      border-radius: 0.2rem;
+    }
+  }
+
+  &__sub-item {
+    margin-top: 0.9rem;
+
+    &_flex {
+      display: flex;
+    }
+
+    .dialogue__user-avatar {
+      width: 2.4rem;
+      height: 2.4rem;
+      margin-right: 0;
+    }
+
+    .dialogue__user-status_primary {
+      padding-right: 1rem;
+      padding-left: 0.8rem;
+      background-color: $color-tenth;
+      border-radius: 0 1rem 1rem 0;
+    }
+  }
+}

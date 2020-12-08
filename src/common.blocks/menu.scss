@@ -3,8 +3,14 @@
   justify-content: space-between;
   width: 100%;
 
-  &_size_small {
-    width: 6rem;
+  &_size {
+    &_small {
+      width: 6rem;
+    }
+
+    &_md {
+      width: 8.4rem;
+    }
   }
 
   &__button {

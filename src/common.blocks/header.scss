@@ -19,6 +19,15 @@
     background-color: $color-primary;
   }
 
+  &_transparent {
+    background-color: $white;
+    opacity: 0.95;
+  }
+
+  &_bottom-bordered {
+    border-bottom: 0.1rem solid $color-eleventh;
+  }
+
   &__top {
     position: relative;
     width: 100%;

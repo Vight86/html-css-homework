@@ -6,13 +6,39 @@
       width: 2rem;
       height: 2rem;
     }
+
+    &_text-md {
+      padding: 0 1rem;
+      font-size: 1.6rem;
+      line-height: 4.5rem;
+    }
   }
 
   &_file {
+    color: $color-sixteenth;
+    font-weight: normal;
+    font-size: 1.4rem;
+    letter-spacing: 0.005em;
     cursor: pointer;
 
     input[type="file"] {
       display: none;
+    }
+  }
+
+  &_with-arrow {
+    padding-right: 1.9rem;
+
+    &::after {
+      position: absolute;
+      top: 40%;
+      right: 0;
+      display: block;
+      width: 0;
+      height: 0;
+      border: 0.5rem solid transparent;
+      border-top-color: $color-twelfth;
+      content: '';
     }
   }
 
@@ -21,18 +47,27 @@
     border-left: 0.1rem solid $color-thirteenth;
   }
 
+  &_bordered {
+    border: 0.1rem solid $color-eleventh;
+    border-radius: 0.6rem;
+  }
+
+  &_right-bordered {
+    padding-right: 1.4rem;
+    border-right: 0.1rem solid $color-eleventh;
+  }
+
   &_primary {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     color: $color-tertiary;
     font-family: $primary-font;
   }
 
   &__icon {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
 
     &_size {
       &_md {

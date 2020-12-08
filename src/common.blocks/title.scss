@@ -12,6 +12,20 @@
     font-size: 1.6em;
   }
 
+  &_tertiary {
+    color: $color-tertiary;
+    font-weight: 600;
+    font-size: 1.6rem;
+    letter-spacing: 0.005em;
+  }
+
+  &_quaternary {
+    color: $color-quaternary;
+    font-weight: 600;
+    font-size: 1.6rem;
+    letter-spacing: 0.005em;
+  }
+
   &_with-circle {
     padding-right: 1em;
 
@@ -26,6 +40,22 @@
       border-radius: 50%;
       transform: translateY(-50%);
       content: '';
+    }
+  }
+
+  &_online {
+    &::after {
+      display: block;
+      width: 0.6rem;
+      height: 1rem;
+      margin-top: 0.4rem;
+      color: $color-fifteenth;
+      font-size: 1.4rem;
+      line-height: 1rem;
+      text-indent: 1rem;
+      background-image: url('./img/following/mobile-icon.svg');
+      background-size: 100%;
+      content: 'Online';
     }
   }
 }
