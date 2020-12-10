@@ -30,8 +30,8 @@
     position: relative;
     z-index: 100;
     box-sizing: border-box;
-    height: 9.6rem;
-    padding: 0 2.5rem;
+    height: 9.7rem;
+    padding: 0 2.4rem;
 
     .dialogue__user-avatar {
       margin-left: -0.3rem;
@@ -71,11 +71,11 @@
       margin-top: 2rem;
 
       & + .message_out {
-        margin-top: 2.5rem;
+        margin-top: 2.4rem;
       }
 
       .message__time {
-        margin: 0.25rem 0 0 7.8rem;
+        margin: -0.3rem 0 0 6.1rem;
       }
     }
 
@@ -83,7 +83,7 @@
       margin-top: 2rem;
 
       & + .message_in {
-        margin-top: 2.5rem;
+        margin-top: 1rem;
       }
 
       .message__time {
@@ -99,6 +99,6 @@
     z-index: 100;
     box-sizing: border-box;
     width: 100%;
-    padding: 2.4rem 2.4rem 1.8rem 1.8rem;
+    padding: 2.4rem 2.2rem 1.8rem 1.8rem;
   }
 }

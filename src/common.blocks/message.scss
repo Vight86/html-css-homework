@@ -86,19 +86,17 @@
     align-items: flex-start;
 
     .message__bubble {
-      left: 0.7rem;
-
       &_primary {
         background-color: $color-tenth;
       }
 
       &_sm {
-        padding: 0.9rem 2rem 0.4em;
+        padding: 0.9rem 2rem 0.5rem;
       }
 
       &_md,
       &_lg {
-        padding: 2rem;
+        padding: 3.2rem 2.7rem 1.4rem 1.9rem;
       }
     }
 
@@ -117,7 +115,6 @@
     align-items: flex-end;
 
     .message__bubble {
-      left: -1.4rem;
       transform: scaleX(-1);
 
       &_primary {
@@ -130,7 +127,7 @@
 
       &_md,
       &_lg {
-        padding: 2rem 3rem;
+        padding: 1rem 3.5rem 2rem 1rem;
       }
     }
 
