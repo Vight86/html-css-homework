@@ -19,8 +19,8 @@
 
   &__item {
     position: relative;
-    width: 75px;
-    height: 75px;
+    width: 7.5rem;
+    height: 7.5rem;
 
     &_centered {
       display: flex;
@@ -32,12 +32,12 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      padding-right: 2.4em;
+      padding-right: 2.4rem;
     }
 
     &_left-bordered {
       border-left-color: darken($color: $color-primary, $amount: 10);
-      border-left-width: 1px;
+      border-left-width: 0.1rem;
       border-left-style: solid;
     }
 

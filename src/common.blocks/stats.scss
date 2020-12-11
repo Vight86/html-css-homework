@@ -13,19 +13,19 @@
   }
 
   &__number {
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2rem;
 
     &_primary {
       color: $color-primary;
       font-weight: 600;
-      font-size: 2.4em;
+      font-size: 2.4rem;
     }
   }
 
   &__text {
     &_primary {
       color: $color-tertiary;
-      font-size: 1.4em;
+      font-size: 1.4rem;
     }
   }
 }

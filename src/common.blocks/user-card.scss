@@ -2,15 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 5rem;
+  padding: 4rem 5rem 4.2rem;
 
   &__user {
-    margin-right: 3.7em;
+    margin-right: 3.7rem;
   }
 
   &__stats {
     flex-grow: 1;
-    margin-right: 6.5em;
+    margin-right: 6.5rem;
   }
 
   &__buttons {

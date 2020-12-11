@@ -1,8 +1,8 @@
 .block {
   overflow: hidden;
   background-color: $white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.1);
 
   &__title {
     position: relative;

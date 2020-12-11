@@ -3,7 +3,7 @@
   flex-direction: column;
   color: $color-tertiary;
   font-weight: normal;
-  font-size: 1.4em;
+  font-size: 1.4rem;
 
   &__bubble {
     position: relative;
@@ -86,6 +86,8 @@
     align-items: flex-start;
 
     .message__bubble {
+      left: 0.7rem;
+
       &_primary {
         background-color: $color-tenth;
       }
@@ -107,7 +109,7 @@
     }
 
     .dialogue__user-avatar {
-      margin: 0 1.6rem 0 0;
+      margin: 0 0.8rem 0 0;
     }
   }
 
@@ -115,6 +117,7 @@
     align-items: flex-end;
 
     .message__bubble {
+      left: -1.4rem;
       transform: scaleX(-1);
 
       &_primary {
@@ -143,7 +146,7 @@
 
     .dialogue__user-avatar {
       order: 1;
-      margin: 0 0 0 1.6rem;
+      margin: 0;
     }
   }
 

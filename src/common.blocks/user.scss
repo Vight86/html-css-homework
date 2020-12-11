@@ -3,20 +3,20 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  max-width: 425px;
+  max-width: 42.5rem;
   font-size: 1rem;
 
   &_left-bordered {
-    padding-right: 3em;
-    border-right: 1px solid darken($color: $white, $amount: 10%);
+    padding-right: 3rem;
+    border-right: 0.1rem solid darken($color: $white, $amount: 10%);
   }
 
   &__avatar {
     margin-right: 2.8rem;
 
     &_primary {
-      width: 10em;
-      height: 10em;
+      width: 10rem;
+      height: 10rem;
     }
   }
 
@@ -40,8 +40,8 @@
         top: 60%;
         right: 0;
         display: block;
-        width: 0.585em;
-        height: 0.585em;
+        width: 1.4rem;
+        height: 1.4rem;
         background-image: url(img/user-card/approved-icon.svg);
         background-size: 100%;
         transform: translateY(-50%);
@@ -55,7 +55,7 @@
 
     &_primary {
       color: $color-tertiary;
-      font-size: 1.4em;
+      font-size: 1.4rem;
       line-height: 1.7;
     }
   }
