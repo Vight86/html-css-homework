@@ -16,7 +16,7 @@ const del = require('del');
 sass.compiler = require('node-sass');
 
 const source = 'src';
-const build = 'dist';
+const build = 'docs';
 
 function html(cb) {
   src(`${source}/*.html`)
